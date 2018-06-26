@@ -2,7 +2,7 @@
   "name": "nytimes_react2",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://localhost:5000",
+  "proxy": "https://localhost:3001/",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
