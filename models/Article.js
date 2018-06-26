@@ -10,12 +10,13 @@ var ArticleSchema = new Schema({
         type: String,
     }, 
     date: {
-
+            type: Date,
     }, 
     url: {
         type: String
     }
 });
 
+exports.modules = Article; 
 
 
