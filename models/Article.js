@@ -5,7 +5,7 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema; 
 
 // using the schema constructor, create a new userSchema Object 
-var ArticleSchema = new Schema({
+var articleSchema = new Schema({
     title: {
         type: String,
     }, 
@@ -18,7 +18,7 @@ var ArticleSchema = new Schema({
 });
 
 // this creates our model schema 
-var Article = mongoose.model("Article", ArticleSchema);
+var Article = mongoose.model("Article", articleSchema);
 
 exports.modules = Article; 
 
