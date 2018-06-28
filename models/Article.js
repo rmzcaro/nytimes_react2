@@ -17,6 +17,9 @@ var ArticleSchema = new Schema({
     }
 });
 
+// this creates our model schema 
+var Article = mongoose.model("Article", ArticleSchema);
+
 exports.modules = Article; 
 
 

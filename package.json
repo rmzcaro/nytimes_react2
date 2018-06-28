@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
     "debug": "^2.6.9",
     "express": "^4.16.3",
     "fsevents": "^1.2.4",
@@ -17,6 +18,7 @@
     "mime": "^1.4.1",
     "mime-db": "^1.33.0",
     "mime-types": "^2.1.18",
+    "mongojs": "^2.6.0",
     "mongoose": "^5.1.6",
     "ms": "^2.0.0",
     "nan": "^2.10.0",
