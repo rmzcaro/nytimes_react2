@@ -1,6 +1,10 @@
 const router = require("express").Router();
-const articlesRoute = require("./articles");
+const articleController = require("../../controllers/articleController");
 
-router.use("/articles", articlesRoute);
+// Match with /api/nyt
+router
+    .route("/")
+    .get(articleController.findAll);
+
 
 module.exports = router; 
