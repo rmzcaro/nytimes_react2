@@ -10,11 +10,17 @@ module.exports = {
         db.Article
             .find(req.query)
             .catch(err=> res.status(422).json(err));
-            console.log(req.query + "at line 13");
+            console.log(req.query);
+
     }
     // search articles with specific parameters
     
     // save a specific article 
+    create: function(req, res) {
+        console.log("Hi I'm an article")
+        const article = {
+           
+        }
     
     // delete a specific article 
     

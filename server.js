@@ -18,7 +18,7 @@ const app = express();
 // const axios = require("axios");
 // const cheerio = require("cheerio");
 
-// express server 5000; 
+// express server 3001; 
 var PORT = process.env.PORT || 3001; 
 
 // set extended to true to prvent strippign objecs
@@ -37,8 +37,10 @@ mongoose.connect(MONGODB_URI);
 
 // -----------------------------------------------------
 
+
 // -----------------------------------------------------
 // start api server 
 var server = app.listen(PORT, function() {
     console.log("Server is listening on port : " + PORT)
 });
+
